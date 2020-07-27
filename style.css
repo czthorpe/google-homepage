@@ -1,0 +1,164 @@
+body {
+    font-family: arial,sans-serif;
+}
+a {
+    text-decoration: none;
+    font-size: 13px;
+    padding:0 0 0 15px;
+}
+
+a:visited {
+    color:black;
+}
+
+a:hover {
+    text-decoration: underline;
+    opacity:.75;
+}
+
+
+#top {
+    width: 100%;
+    height:30px;
+}
+
+#top-left{
+    float:left;
+    padding-top: 8px;
+}
+
+#top-right {
+    display: flex;
+    align-items: center;
+    margin-left:82%;
+}
+
+#grid {
+    background-image: url(https://ssl.gstatic.com/gb/images/i2_2ec824b0.png);
+    background-size: 528px 68px;
+    background-position-x: -132px;
+    background-position-y: -38px;
+    width: 30px;
+    height: 30px;
+    opacity:.65;
+    margin-left:15px;
+    margin-right:-10px;
+
+}
+
+#grid:hover {
+    opacity: 1;
+}
+
+#user-image{
+    border-radius: 50%;
+}
+
+#logo {
+    padding-top:110px;
+    display:block;
+    margin:auto;
+}
+
+.opa {
+    opacity: .75;
+}
+
+#searchbar-container {
+    width:560px;
+    margin:auto;
+    height:39px;
+}
+#searchbar {
+    width:470px;
+    height:44px;
+    display:block;
+    margin:auto;
+    border-radius:24px;
+    border: 1px solid #dfe1e5;
+    padding-left:40px;
+    font-size:16px;
+}
+
+input:hover {
+    box-shadow: 0px 3px 10px -3px #757575;
+}
+input:focus {
+    outline:none;
+}
+#search-icon {
+    height:16px;
+    width:16px;
+    opacity: .60;
+    position: relative;
+    top:35px;
+    left:60px;
+}
+
+#search-mic {
+    height:25px;
+    width:25px;
+    position: relative;
+    bottom:33px;
+    left:474px;
+}
+
+#search-mic:hover {
+    cursor: pointer;
+}
+
+#button-container {
+    margin:auto;
+    margin-top:300px;
+    text-align:center;
+    margin-right:14px;
+}
+
+.button {
+    width:140px;
+    height:35px;
+    border-radius:4px;
+    background-color:#f2f2f2;
+    border:1px solid #f2f2f2;
+    font-size:14px;
+    cursor: pointer;
+    color:#575757;
+    margin-left:14px;
+}
+.button:hover{
+    box-shadow: none;
+    border:1px solid #adadad;
+    color:black;
+}
+
+#footer-container {
+    width:101%;
+    background-color:#f2f2f2;
+    height:40px;
+    bottom:0;
+    left:-8px;
+    border: 1px solid #e3e3e3;
+    position: fixed;
+    line-height: 40px;
+ 
+}
+
+#footer-container a {
+    color:#5f6368;
+    font-size: 14px;
+    
+}
+#footer-container a:hover {
+    color:#5f6368;
+}
+
+.left {
+    float:left;
+    padding-left:20px;
+    margin-left:10px;
+}
+.right {
+    float:right;
+    padding-right:40px;
+    margin-left:-20px;
+}
